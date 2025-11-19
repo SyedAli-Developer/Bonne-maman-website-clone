@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "DMsans";
+    src: url(../assets/fonts/static/DMSans-Regular.ttf);
+}
+.gtc{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav > ul{
+    font-family: "DMsans";
+    font-weight: 500;
+}
