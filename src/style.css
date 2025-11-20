@@ -2,33 +2,42 @@
     font-family: "DMsans";
     src: url(../assets/fonts/DMSans/static/DMSans-Regular.ttf);
 }
+
 @font-face {
     font-family: "Times";
     src: url(../assets/fonts/Times-new-Roman/times.ttf);
 }
+
 @font-face {
     font-family: "Lora";
     src: url(../assets/fonts/Lora/static/Lora-Regular.ttf);
 }
+
 @font-face {
     font-family: "maman";
     src: url(../assets/fonts/Bonne-mamman/bonne-maman.ttf);
 }
-.maman{
+
+.maman {
     font-family: "maman";
 }
-.lora{
+
+.lora {
     font-family: "Lora";
 }
-.times{
+
+.times {
     font-family: "Times";
 }
-.DMsans{
+
+.DMsans {
     font-family: "DMsans";
 }
+
 .gtc {
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 nav>ul {
     font-family: "DMsans";
     font-weight: 500;
@@ -78,52 +87,59 @@ nav>ul {
 
 
 #ani1 {
-  width: 172px;
-  height: 172px;
-  border: none;
-  background-image: url(../assets/images/user-1.avif);
-  background-size: 100% 100%;
-  background-repeat:no-repeat;
-  background-position: center center;
-  border-radius: 100%;
-  cursor:pointer;
+    width: 172px;
+    height: 172px;
+    border: none;
+    background-image: url(../assets/images/user-1.avif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100%;
+    cursor: pointer;
 }
+
 #ani1:hover {
-	transition-duration: 1s;
-	background-size:105% 105%;
+    transition-duration: 1s;
+    background-size: 105% 105%;
     background-position: center center;
 }
+
 #ani2 {
-  width: 172px;
-  height: 172px;
-  border: none;
-  background-image: url(../assets/images/user-2.avif);
-  background-size: 100% 100%;
-  background-repeat:no-repeat;
-  background-position: center center;
-  border-radius: 100%;
-  cursor:pointer;
+    width: 172px;
+    height: 172px;
+    border: none;
+    background-image: url(../assets/images/user-2.avif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100%;
+    cursor: pointer;
 }
+
 #ani2:hover {
-	transition-duration: 1s;
-	background-size:105% 105%;
+    transition-duration: 1s;
+    background-size: 105% 105%;
     background-position: center center;
-}#ani3 {
-  width: 172px;
-  height: 172px;
-  border: none;
-  background-image: url(../assets/images/user-3.avif);
-  background-size: 100% 100%;
-  background-repeat:no-repeat;
-  background-position: center center;
-  border-radius: 100%;
-  cursor:pointer;
 }
+
+#ani3 {
+    width: 172px;
+    height: 172px;
+    border: none;
+    background-image: url(../assets/images/user-3.avif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
 #ani3:hover {
-	transition-duration: 1s;
-	background-size:105% 105%;
+    transition-duration: 1s;
+    background-size: 105% 105%;
     background-position: center center;
 }
+
 /* image zoom in transition ended */
 
 /* section-2 ended ___--_-_-_-_-__-__-___--__-_-- */
@@ -136,36 +152,190 @@ nav>ul {
 
 /* image zoom in transition started  */
 
-#image-t1{
+#image-t1 {
     width: 444px;
-  height: 555px;
-  border: none;
-  background-image: url(../assets/images/Cranberry.webp);
-  background-size: 100% 100%;
-  background-repeat:no-repeat;
-  background-position: center center;
-  cursor:pointer;
+    height: 555px;
+    border: none;
+    background-image: url(../assets/images/Cranberry.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
 }
+
 #image-t1:hover {
-	transition-duration: 1s;
-	background-size:105% 105%;
+    transition-duration: 1s;
+    background-size: 105% 105%;
     background-position: center center;
 }
-#image-t2{
+
+#image-t2 {
     width: 444px;
-  height: 555px;
-  border: none;
-  background-image: url(../assets/images/pumpkin-spice-jam.webp);
-  background-size: 100% 100%;
-  background-repeat:no-repeat;
-  background-position: center center;
-  cursor:pointer;
+    height: 555px;
+    border: none;
+    background-image: url(../assets/images/pumpkin-spice-jam.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
 }
+
 #image-t2:hover {
-	transition-duration: 1s;
-	background-size:105% 105%;
+    transition-duration: 1s;
+    background-size: 105% 105%;
     background-position: center center;
 }
+
 /* image zoom in transition ended  */
 
 /* section-3 ended _-_-_---_--_-__--__-__-__-__-__--_---_--_- */
+
+/* section-4 started --------______________________________________ */
+
+.btn-top{
+    background-color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    padding: 9px 15px;
+    border-radius: 20px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    font-family: "DMsans";
+    font-weight: 600;
+}
+.btn-bottom{
+    display: none;
+    background-color: #d92926;
+    font-size: 0.8rem;
+    width: 97%;
+    position: relative;
+    bottom: -170px;
+    left: 4px;
+    padding: 12px;
+    color: white;
+    font-family: "DMsans";
+    font-weight: 600;
+    border-radius: 5px;
+    
+    
+}
+.btn-bottom{
+    display: block;
+    background-color: #d92926;
+    font-size: 0.8rem;
+    width: 97%;
+    position: relative;
+    bottom: -170px;
+    left: 4px;
+    padding: 12px;
+    color: white;
+    font-family: "DMsans";
+    font-weight: 600;
+    border-radius: 5px;
+    
+    
+}
+
+#img-group-hover {
+    width: 257px;
+    height: 257px;
+    background-color: rgba(128, 128, 128, 0.178);
+    /* visibility: hidden; */
+    cursor: pointer;
+    border: none;
+}
+#img-group-hover:hover {
+    width: 257px;
+    height: 257px;
+    /* visibility: visible; */
+    
+    cursor: pointer;
+    border: none;
+    
+}
+#img-group-1 {
+    width: 257px;
+    height: 257px;
+    background-image: url(../assets/images/Advent_Calendar_2025_active.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: none;
+}
+#img-group-1:hover {
+    width: 257px;
+    height: 257px;
+    background-image: url(../assets/images/Advent_Calendar_2025_hover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: none;
+    
+}
+#img-group-2 {
+    width: 257px;
+    height: 257px;
+    background-image: url(../assets/images/bm_sampler_active.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: none;
+}
+#img-group-2:hover {
+    width: 257px;
+    height: 257px;
+    background-image: url(../assets/images/bm_sampler_hover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: none;
+    
+}
+#img-group-3 {
+    width: 257px;
+    height: 257px;
+    background-image: url(../assets/images/MadeForYou-active.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: none;
+}
+#img-group-3:hover {
+    width: 257px;
+    height: 257px;
+    background-image: url(../assets/images/MadeForYou-hover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: none;
+    
+}
+#img-group-4 {
+    width: 257px;
+    height: 257px;
+    background-image: url(../assets/images/LoveBox-active.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: none;
+}
+#img-group-4:hover {
+    width: 257px;
+    height: 257px;
+    background-image: url(../assets/images/LoveBox-hover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: none;
+    
+}
+
+/* section-4 ended --------______________________________________ */
