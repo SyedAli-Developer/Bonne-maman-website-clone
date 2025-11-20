@@ -6,6 +6,13 @@
     font-family: "Times";
     src: url(../assets/fonts/Times-new-Roman/times.ttf);
 }
+@font-face {
+    font-family: "Lora";
+    src: url(../assets/fonts/Lora/static/Lora-Regular.ttf);
+}
+.lora{
+    font-family: "Lora";
+}
 .times{
     font-family: "Times";
 }
@@ -29,13 +36,13 @@ nav>ul {
 /* button transition started */
 .btn-circle {
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    background: rgba(209, 209, 209, 0.548);
-    border: 3px solid rgba(255, 255, 255, 0.2);
-    color: white;
-    font-size: 36px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(126, 126, 126, 0.61);
+    color: rgb(0, 0, 0);
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,10 +52,11 @@ nav>ul {
 }
 
 .btn-circle:hover {
-    transition-duration: 1.5s;
+    transition-duration: 0.8s;
     border-color: #ff0000;
     color: #ff0000;
-    transform: scale(1.1);
+    background-color: white;
+    transform: scale(1.2);
 }
 
 /* button transition ended */
