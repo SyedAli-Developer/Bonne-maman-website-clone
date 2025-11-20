@@ -39,6 +39,7 @@ nav>ul {
     color: #d92926;
 }
 
+/* section-1 started  */
 
 /* button transition started */
 .btn-circle {
@@ -67,6 +68,11 @@ nav>ul {
 }
 
 /* button transition ended */
+
+
+/*------------------------------------------ section-1 ended  */
+
+/* section-2 stated ------------------------------------------- */
 
 /* image zoom in transition started */
 
@@ -119,3 +125,47 @@ nav>ul {
     background-position: center center;
 }
 /* image zoom in transition ended */
+
+/* section-2 ended ___--_-_-_-_-__-__-___--__-_-- */
+
+
+
+
+
+/* section-3 started _-_-_---_--_-__--__-__-__-__-__--_---_--_- */
+
+/* image zoom in transition started  */
+
+#image-t1{
+    width: 444px;
+  height: 555px;
+  border: none;
+  background-image: url(../assets/images/Cranberry.webp);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-position: center center;
+  cursor:pointer;
+}
+#image-t1:hover {
+	transition-duration: 1s;
+	background-size:105% 105%;
+    background-position: center center;
+}
+#image-t2{
+    width: 444px;
+  height: 555px;
+  border: none;
+  background-image: url(../assets/images/pumpkin-spice-jam.webp);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-position: center center;
+  cursor:pointer;
+}
+#image-t2:hover {
+	transition-duration: 1s;
+	background-size:105% 105%;
+    background-position: center center;
+}
+/* image zoom in transition ended  */
+
+/* section-3 ended _-_-_---_--_-__--__-__-__-__-__--_---_--_- */
