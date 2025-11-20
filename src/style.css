@@ -10,6 +10,13 @@
     font-family: "Lora";
     src: url(../assets/fonts/Lora/static/Lora-Regular.ttf);
 }
+@font-face {
+    font-family: "maman";
+    src: url(../assets/fonts/Bonne-mamman/bonne-maman.ttf);
+}
+.maman{
+    font-family: "maman";
+}
 .lora{
     font-family: "Lora";
 }
@@ -60,3 +67,55 @@ nav>ul {
 }
 
 /* button transition ended */
+
+/* image zoom in transition started */
+
+
+#ani1 {
+  width: 172px;
+  height: 172px;
+  border: none;
+  background-image: url(../assets/images/user-1.avif);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-position: center center;
+  border-radius: 100%;
+  cursor:pointer;
+}
+#ani1:hover {
+	transition-duration: 1s;
+	background-size:105% 105%;
+    background-position: center center;
+}
+#ani2 {
+  width: 172px;
+  height: 172px;
+  border: none;
+  background-image: url(../assets/images/user-2.avif);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-position: center center;
+  border-radius: 100%;
+  cursor:pointer;
+}
+#ani2:hover {
+	transition-duration: 1s;
+	background-size:105% 105%;
+    background-position: center center;
+}#ani3 {
+  width: 172px;
+  height: 172px;
+  border: none;
+  background-image: url(../assets/images/user-3.avif);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-position: center center;
+  border-radius: 100%;
+  cursor:pointer;
+}
+#ani3:hover {
+	transition-duration: 1s;
+	background-size:105% 105%;
+    background-position: center center;
+}
+/* image zoom in transition ended */
