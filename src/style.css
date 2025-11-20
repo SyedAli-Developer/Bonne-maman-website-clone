@@ -1,11 +1,54 @@
 @font-face {
     font-family: "DMsans";
-    src: url(../assets/fonts/static/DMSans-Regular.ttf);
+    src: url(../assets/fonts/DMSans/static/DMSans-Regular.ttf);
 }
-.gtc{
+@font-face {
+    font-family: "Times";
+    src: url(../assets/fonts/Times-new-Roman/times.ttf);
+}
+.times{
+    font-family: "Times";
+}
+.DMsans{
+    font-family: "DMsans";
+}
+.gtc {
     grid-template-columns: 1fr 1fr 1fr;
 }
-nav > ul{
+nav>ul {
     font-family: "DMsans";
     font-weight: 500;
 }
+
+.marker:hover {
+    transition-duration: 0.3s;
+    color: #d92926;
+}
+
+
+/* button transition started */
+.btn-circle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(209, 209, 209, 0.548);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.btn-circle:hover {
+    transition-duration: 1.5s;
+    border-color: #ff0000;
+    color: #ff0000;
+    transform: scale(1.1);
+}
+
+/* button transition ended */
