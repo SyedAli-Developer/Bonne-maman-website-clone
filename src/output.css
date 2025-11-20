@@ -215,6 +215,12 @@
   .left-800 {
     left: calc(var(--spacing) * 800);
   }
+  .my-1 {
+    margin-block: calc(var(--spacing) * 1);
+  }
+  .my-10 {
+    margin-block: calc(var(--spacing) * 10);
+  }
   .my-16 {
     margin-block: calc(var(--spacing) * 16);
   }
@@ -230,8 +236,20 @@
   .mt-3\.5 {
     margin-top: calc(var(--spacing) * 3.5);
   }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-2\.5 {
+    margin-bottom: calc(var(--spacing) * 2.5);
+  }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
   }
   .flex {
     display: flex;
@@ -383,8 +401,23 @@
   .text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
+  .text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
   .text-\[2rem\] {
     font-size: 2rem;
+  }
+  .text-\[3\.5rem\] {
+    font-size: 3.5rem;
+  }
+  .text-\[3rem\] {
+    font-size: 3rem;
+  }
+  .text-\[4\.2rem\] {
+    font-size: 4.2rem;
+  }
+  .text-\[4\.5rem\] {
+    font-size: 4.5rem;
   }
   .text-\[5rem\] {
     font-size: 5rem;
@@ -402,6 +435,12 @@
   }
   .text-\[\#d92926\] {
     color: #d92926;
+  }
+  .text-\[grey\] {
+    color: grey;
+  }
+  .text-\[rem\] {
+    color: rem;
   }
   .underline {
     text-decoration-line: underline;
