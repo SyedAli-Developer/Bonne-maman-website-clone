@@ -339,3 +339,20 @@ nav>ul {
 }
 
 /* section-4 ended --------______________________________________ */
+
+
+/* section-5 started__________-----------------_______________________ */
+
+.big-imag{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/images/Big-image-bonne-maman.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    border: none;
+}
+
+/* section-5 ended__________-----------------_______________________ */
