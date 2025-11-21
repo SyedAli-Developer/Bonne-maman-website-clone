@@ -388,6 +388,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
   .border-\[\#e1e1e1\] {
     border-color: #e1e1e1;
   }
@@ -396,6 +400,9 @@
   }
   .bg-\[\#fbfaf9\] {
     background-color: #fbfaf9;
+  }
+  .bg-\[grey\] {
+    background-color: grey;
   }
   .bg-\[white\] {
     background-color: white;
@@ -424,11 +431,17 @@
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
   }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
   }
   .text-center {
     text-align: center;
+  }
+  .text-\[0\.6rem\] {
+    font-size: 0.6rem;
   }
   .text-\[0\.8rem\] {
     font-size: 0.8rem;
@@ -467,6 +480,9 @@
   }
   .text-\[\#d92926\] {
     color: #d92926;
+  }
+  .text-\[0\.\] {
+    color: 0.;
   }
   .text-\[grey\] {
     color: grey;
