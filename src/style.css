@@ -232,8 +232,11 @@ nav>ul {
     font-family: "DMsans";
     font-weight: 600;
     border-radius: 5px;
+    cursor: pointer;
     
-    
+}
+.btn-bottom:hover{
+    background-color: #cc2623;
 }
 
 #img-group-hover {
